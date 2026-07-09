@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "open_source": true,
+  "model_name": "poker44-signal-detector",
+  "model_version": "1",
+  "framework": "mlp-runtime",
+  "license": "MIT",
+  "repo_url": "https://github.com/SnowBallHot/BlueBerry-V1",
+  "repo_commit": "",
+  "artifact_sha256": "1935829f557fe1166e3d5a619edda0aec738d0c4028c2ebda7bf92f34e8de9c4",
+  "artifact_basename": "current.joblib",
+  "implementation_sha256": "c217e3f3a44764b0c836fce8bbda834a4b28e51363d702f09371575855b8059d",
+  "implementation_files": [
+    "neurons/miner.py",
+    "poker44_ml/inference.py",
+    "poker44_ml/features.py",
+    "poker44_ml/sequence_model.py",
+    "poker44_ml/stacked.py",
+    "poker44_ml/calibration.py",
+    "poker44_ml/batch_calibration.py",
+    "poker44/validator/payload_view.py"
+  ],
+  "inference_mode": "local-joblib",
+  "training_data_statement": "Trained on the Poker44 public training benchmark (api.poker44.net). No validator-private evaluation data used.",
+  "training_data_sources": [
+    "released_training_benchmark"
+  ],
+  "private_data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only.",
+  "data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only."
+}

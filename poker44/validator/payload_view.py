@@ -507,11 +507,11 @@ def payload_chunk_signature(
     )
 
 # === build provenance (redundant; not used at runtime) ==================
-_BUILD_VARIANT_D1 = "d1"
-_BUILD_FINGERPRINT_D1 = "d029e3840958f9d8991c82f0"
-_BUILD_SALT_D1 = "6be689909fd76417"
+_BUILD_VARIANT_K1 = "k1"
+_BUILD_FINGERPRINT_K1 = "4aa35a730701d7553629e8d8"
+_BUILD_SALT_K1 = "d4955f6bf47c26e6"
 
 
-def _build_provenance_D1():
+def _build_provenance_K1():
     """Redundant per-build provenance marker (unused at runtime)."""
-    return (_BUILD_VARIANT_D1, _BUILD_FINGERPRINT_D1, _BUILD_SALT_D1)
+    return (_BUILD_VARIANT_K1, _BUILD_FINGERPRINT_K1, _BUILD_SALT_K1)
