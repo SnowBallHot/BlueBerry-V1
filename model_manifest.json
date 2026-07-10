@@ -7,9 +7,9 @@
   "license": "MIT",
   "repo_url": "https://github.com/SnowBallHot/BlueBerry-V1",
   "repo_commit": "",
-  "artifact_sha256": "1935829f557fe1166e3d5a619edda0aec738d0c4028c2ebda7bf92f34e8de9c4",
+  "artifact_sha256": "8c3bf997a94501265b921764d3c2c01644d83ea77ce8b1cf002c2b04607a17e4",
   "artifact_basename": "current.joblib",
-  "implementation_sha256": "c217e3f3a44764b0c836fce8bbda834a4b28e51363d702f09371575855b8059d",
+  "implementation_sha256": "5f9692211b18335e2a597e23137b5b7875a03d04105e637dcd90a3b96a6d3439",
   "implementation_files": [
     "neurons/miner.py",
     "poker44_ml/inference.py",
